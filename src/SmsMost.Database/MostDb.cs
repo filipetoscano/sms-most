@@ -19,6 +19,9 @@ public class MostDb : DbContext
     public DbSet<Channel> Channels { get; set; }
 
     /// <summary />
+    public DbSet<ChannelApiKey> ChannelApiKeys { get; set; }
+
+    /// <summary />
     public DbSet<Gateway> Gateways { get; set; }
 
     /// <summary />

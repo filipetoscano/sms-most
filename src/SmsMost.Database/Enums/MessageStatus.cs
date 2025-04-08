@@ -3,10 +3,19 @@
 /// <summary />
 public enum MessageStatus
 {
-    /// <summary />
+    /// <summary>
+    /// Message has been queued for delivery.
+    /// </summary>
     Queued = 1,
 
-    /// <summary />
+    /// <summary>
+    /// Message is scheduled for future delivery.
+    /// </summary>
+    Scheduled,
+
+    /// <summary>
+    /// Message has been sent.
+    /// </summary>
     Sent,
 
     /// <summary />

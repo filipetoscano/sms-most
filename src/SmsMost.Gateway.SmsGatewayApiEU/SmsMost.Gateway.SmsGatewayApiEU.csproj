@@ -7,13 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="libphonenumber-csharp" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SmsMost.Abstractions\SmsMost.Abstractions.csproj" />
-    <ProjectReference Include="..\SmsMost.Database\SmsMost.Database.csproj" />
-    <ProjectReference Include="..\SmsMost.Gateway.Null\SmsMost.Gateway.Null.csproj" />
   </ItemGroup>
 
 </Project>

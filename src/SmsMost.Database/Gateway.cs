@@ -11,6 +11,9 @@ public class Gateway
     /// <summary />
     [Key]
     public Guid Id { get; set; }
+
+    /// <summary />
+    public bool IsEnabled { get; set; }
 }
 
 

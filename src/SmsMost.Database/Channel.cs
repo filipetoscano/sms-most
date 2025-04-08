@@ -23,6 +23,10 @@ public class Channel
     /// <summary />
     [StringLength( 200 )]
     public string? Description { get; set; }
+
+
+    /// <summary />
+    public virtual List<ChannelApiKey> ApiKeys { get; set; } = default!;
 }
 
 
