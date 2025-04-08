@@ -12,7 +12,7 @@
     <ProjectReference Include="..\SmsMost.Database.SqlServer\SmsMost.Database.SqlServer.csproj" />
     <ProjectReference Include="..\SmsMost.Database\SmsMost.Database.csproj" />
     <ProjectReference Include="..\SmsMost.Gateway.Null\SmsMost.Gateway.Null.csproj" />
-    <ProjectReference Include="..\SmsMost.Gateway.SmsGatewayApiEU\SmsMost.Gateway.SmsGatewayApiEU.csproj" />
+    <ProjectReference Include="..\SmsMost.Gateway.SmsGatewayApiEU\SmsMost.Gateway.SmsGatewayApi.csproj" />
     <ProjectReference Include="..\SmsMost.Services\SmsMost.Services.csproj" />
   </ItemGroup>
 

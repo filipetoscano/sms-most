@@ -1,15 +1,15 @@
 ﻿using Microsoft.Extensions.Options;
 
-namespace SmsMost.Gateway.SmsGatewayApiEU;
+namespace SmsMost.Gateway.GatewayApi;
 
 /// <summary />
-public class SmsGatewayApiEuGateway : IGateway
+public class GatewayApiGateway : IGateway
 {
-    private readonly SmsGatewayApiEuOptions _options;
+    private readonly GatewayApiOptions _options;
 
 
     /// <summary />
-    public SmsGatewayApiEuGateway( IOptionsSnapshot<SmsGatewayApiEuOptions> options )
+    public GatewayApiGateway( IOptionsSnapshot<GatewayApiOptions> options )
     {
         _options = options.Value;
     }

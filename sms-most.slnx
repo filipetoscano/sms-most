@@ -10,8 +10,9 @@
     <Project Path="src/SmsMost.Database.Sqlite/SmsMost.Database.Sqlite.csproj" Id="b5277305-c93d-4b96-ab96-d135c5d07f23" />
     <Project Path="src/SmsMost.Database.SqlServer/SmsMost.Database.SqlServer.csproj" Id="24e03928-a676-4741-841a-3f444455e417" />
     <Project Path="src/SmsMost.Database/SmsMost.Database.csproj" Id="c8b150f6-6cc1-45c3-9929-6b563b845646" />
+    <Project Path="src/SmsMost.Gateway.GatewayApi/SmsMost.Gateway.GatewayApi.csproj" Id="9560047b-8291-4909-bfb7-21c4e9f209b0" />
     <Project Path="src/SmsMost.Gateway.Null/SmsMost.Gateway.Null.csproj" Id="fd2ffe19-d316-4108-ade2-44a96be1067a" />
-    <Project Path="src/SmsMost.Gateway.SmsGatewayApiEU/SmsMost.Gateway.SmsGatewayApiEU.csproj" Id="fac0306f-151e-4837-a3c2-13e0637bc63e" />
+    <Project Path="src/SmsMost.Gateway.SmsGatewayApi/SmsMost.Gateway.SmsGatewayApi.csproj" />
     <Project Path="src/SmsMost.Services/SmsMost.Services.csproj" Id="322f8e58-c5a1-4dea-8d5b-53fe74f238fe" />
     <Project Path="src/SmsMost.Web/SmsMost.Web.csproj" Id="397d12a9-abc7-4958-80f8-707a11a41df3" />
   </Folder>
