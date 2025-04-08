@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmsMost.Abstractions\SmsMost.Abstractions.csproj" />
+    <ProjectReference Include="..\SmsMost.Database.Sqlite\SmsMost.Database.Sqlite.csproj" />
+    <ProjectReference Include="..\SmsMost.Database.SqlServer\SmsMost.Database.SqlServer.csproj" />
+    <ProjectReference Include="..\SmsMost.Database\SmsMost.Database.csproj" />
+    <ProjectReference Include="..\SmsMost.Gateway.Null\SmsMost.Gateway.Null.csproj" />
+    <ProjectReference Include="..\SmsMost.Services\SmsMost.Services.csproj" />
+  </ItemGroup>
+
+</Project>
