@@ -13,7 +13,7 @@ public class AppUser
     public required Guid Id { get; set; }
 
     /// <summary />
-    [StringLength( 200  )]
+    [StringLength( 200 )]
     public required string Username { get; set; }
 }
 
