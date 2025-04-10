@@ -13,7 +13,11 @@
   <ItemGroup>
     <ProjectReference Include="..\SmsMost.Abstractions\SmsMost.Abstractions.csproj" />
     <ProjectReference Include="..\SmsMost.Database\SmsMost.Database.csproj" />
+    <ProjectReference Include="..\SmsMost.Gateway.GatewayApi\SmsMost.Gateway.GatewayApi.csproj" />
+    <ProjectReference Include="..\SmsMost.Gateway.Infobip\SmsMost.Gateway.Infobip.csproj" />
     <ProjectReference Include="..\SmsMost.Gateway.Null\SmsMost.Gateway.Null.csproj" />
+    <ProjectReference Include="..\SmsMost.Gateway.Plivo\SmsMost.Gateway.Plivo.csproj" />
+    <ProjectReference Include="..\SmsMost.Gateway.SmsGatewayApi\SmsMost.Gateway.SmsGatewayApi.csproj" />
   </ItemGroup>
 
 </Project>
