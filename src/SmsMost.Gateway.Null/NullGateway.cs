@@ -22,6 +22,9 @@ public class NullGateway : IGateway
 
         await Task.Delay( 100 );
 
-        return new SmsReceipt();
+        return new SmsReceipt()
+        {
+            GwMessageId = Guid.NewGuid().ToString(),
+        };
     }
 }
